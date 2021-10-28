@@ -3,6 +3,7 @@ name: go1.14+
 on:
   workflow_dispatch:
   push:
+    branches: [ main ]
   schedule:
     # Runs at 16:05 UTC on day-of-month 1 (Every day-of-month 1 at AM 01:05 JST, my time)
     - cron: '5 16 * * SUN'
