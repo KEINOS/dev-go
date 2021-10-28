@@ -4,8 +4,8 @@ on:
   workflow_dispatch:
   push:
   schedule:
-    # Runs at 16:05 UTC on Sun (Every Monday at AM 01:05 JST, my time)
-    #- cron: '5 16 * * SUN'
+    # Runs at 16:05 UTC on day-of-month 1 (Every day-of-month 1 at AM 01:05 JST, my time)
+    - cron: '5 16 * * SUN'
 
 env:
   PATH_CACHE: /tmp/docker-img-arch

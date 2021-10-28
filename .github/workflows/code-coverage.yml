@@ -7,8 +7,8 @@ on:
     # The branches below must be a subset of the branches above
     branches: [ main ]
   schedule:
-    # Runs at 16:40 UTC on Sun (Every Monday at AM 01:40 JST, my time)
-    #- cron: '40 16 * * SUN'
+    # Runs at 16:40 UTC on day-of-month 1 (Every day-of-month 1 at AM 01:40 JST, my time)
+    - cron: '40 16 * * SUN'
 
 jobs:
   build:
