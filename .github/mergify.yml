@@ -1,0 +1,13 @@
+pull_request_rules:
+  - name: Automatic merge on approval
+    conditions:
+      - author=KEINOS
+      - base=main
+      - title~=^Changes
+      - files=go.mod
+      - files=go.sum
+      - check-success=analysis
+      - check-success=[container-scan] keinos/vscode-dev-container-go-test
+    actions:
+      merge:
+        method: merge
