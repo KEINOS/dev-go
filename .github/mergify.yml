@@ -7,12 +7,12 @@ pull_request_rules:
       - files=go.mod
       - files=go.sum
       - "#files=2"
-      - check-success=CodeQL / Analyze (go) (pull_request)
-      - check-success=Codecov / build (pull_request)
-      - check-success=UnitTests / Unit test (ubuntu-latest) (pull_request)
-      - check-success=UnitTests / Unit test (macos-latest) (pull_request)
-      - check-success=UnitTests / Unit test (windows-latest) (pull_request)
-      - check-success=Code scanning results / CodeQL
+      - check-success=Analyze (go) (pull_request)
+      - check-success=build (pull_request)
+      - check-success=Unit test (ubuntu-latest) (pull_request)
+      - check-success=Unit test (macos-latest) (pull_request)
+      - check-success=Unit test (windows-latest) (pull_request)
+      - check-success=CodeQL
       - check-success=codecov/patch
       - check-success=codecov/project
     actions:
