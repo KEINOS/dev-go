@@ -1,3 +1,5 @@
+# This workflow updates the code coverage of Codecov.
+# It runs the unit test and pushes the measured code coverage analysis.
 name: "Codecov"
 
 on:
