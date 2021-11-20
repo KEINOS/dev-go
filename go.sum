@@ -1,5 +1,5 @@
-github.com/KEINOS/go-utiles v1.2.1 h1:Pt0cfJt88f4ipDbBQFdl+tWLOJNge3Fdj6WaTQ/j3h4=
-github.com/KEINOS/go-utiles v1.2.1/go.mod h1:EVdQEfAtwVVxuzlHVU2bVQ7RHEYrTFrv4Q3HBsLZMks=
+github.com/KEINOS/go-utiles v1.2.0 h1:ZA6rIUFE/sUfLR6H7rdOBdJ+xOG4IyrsvdlP/Kb36uc=
+github.com/KEINOS/go-utiles v1.2.0/go.mod h1:EVdQEfAtwVVxuzlHVU2bVQ7RHEYrTFrv4Q3HBsLZMks=
 github.com/davecgh/go-spew v1.1.0/go.mod h1:J7Y8YcW2NihsgmVo/mv3lAwl/skON4iLHjSsI+c5H38=
 github.com/davecgh/go-spew v1.1.1 h1:vj9j/u1bqnvCEfJOwUhtlOARqs3+rkHYY13jYWTU97c=
 github.com/davecgh/go-spew v1.1.1/go.mod h1:J7Y8YcW2NihsgmVo/mv3lAwl/skON4iLHjSsI+c5H38=
