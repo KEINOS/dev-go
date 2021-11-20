@@ -11,7 +11,7 @@
 #     [Settings]-[Secrets]-[Actions secrets]
 # To generate a new token go to:
 #     https://github.com/settings/tokens
-#     * You don't need to select any additional scope.
+#     * You need add the "repo" scope to the token but no more.
 # =============================================================================
 name: Weekly Update
 
