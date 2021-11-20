@@ -7,9 +7,14 @@ pull_request_rules:
       - files=go.mod
       - files=go.sum
       - "#files=2"
-      - check-success=Codecov
+      - check-success=codecov/patch
+      - check-success=codecov/project
       - check-success=CodeQL
-      - check-success=UnitTests
+      - check-success=build (pull_request)
+      - check-success=Analyze (go) (pull_request)
+      - check-success~=^Unit test (ubuntu-latest)
+      - check-success~=^Unit test (macos-latest)
+      - check-success~=^Unit test (windows-latest)
     actions:
       merge:
         method: merge
