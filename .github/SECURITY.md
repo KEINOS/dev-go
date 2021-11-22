@@ -13,12 +13,12 @@ We run the tests every week scheduled with the below Go versions.
 
 ## Code Scaning
 
-[![CodeQL](https://github.com/KEINOS/go-utiles/actions/workflows/codeQL-analysis.yml/badge.svg)](https://github.com/KEINOS/go-utiles/actions/workflows/codeQL-analysis.yml)
+[![CodeQL](https://github.com/KEINOS/dev-go/actions/workflows/codeQL-analysis.yml/badge.svg)](https://github.com/KEINOS/dev-go/actions/workflows/codeQL-analysis.yml)
 
 ## Security Status
 
-- Check the current "[Security overview](https://github.com/KEINOS/go-utiles/security)" status.
+- Check the current "[Security overview](https://github.com/KEINOS/dev-go/security)" status.
 
 ## Reporting a Vulnerability
 
-- Please [issue](https://github.com/KEINOS/go-utiles/issues) them.
+- Please [issue](https://github.com/KEINOS/dev-go/issues) them.
