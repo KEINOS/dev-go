@@ -6,7 +6,8 @@ on:
     branches: [ main ]
   schedule:
     # Runs at 16:05 UTC on day-of-month 1 (Every day-of-month 1 at AM 01:05 JST, my time)
-    - cron: '5 16 * * SUN'
+    # See: https://crontab.guru/
+    - cron: '5 16 1 * *'
 
 env:
   PATH_CACHE: /tmp/docker-img-arch
