@@ -35,14 +35,7 @@ jobs:
         if: steps.cache.outputs.cache-hit != 'true'
         run: go mod download
 
-      - name: Run coverage (Windows)
-        if: runner.os == 'Windows'
+      - name: Run unit test
         run: |
           go mod download
-          go test -v ./...
-
-      - name: Run coverage (Linux/macOS)
-        if: runner.os != 'Windows'
-        run: |
-          go mod download
-          go test -v ./...
+          go test -race -v ./...
