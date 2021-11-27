@@ -11,5 +11,5 @@ FROM ghcr.io/keinos/vscode-dev-container-go:${VARIANT}
 # RUN apk add --no-cache <your-package-list-here>
 
 # [Optional] Uncomment this section to go install anything else you need.
-USER vscode
-RUN cd /tmp && go install golang.org/x/lint/golint@latest
+# USER vscode
+# RUN cd /tmp && go install "<your-package-here>@<version>"
