@@ -8,10 +8,10 @@
 # it will cause failure in the other container becaue of missing "go.mod" file.
 #
 # Recommended usage:
-#   docker-compose --file ./.github/docker-compose.yml up tidy && \
-#   docker-compose --file ./.github/docker-compose.yml up 1.14
+#   docker-compose --file ./.github/docker-compose.yml run tidy && \
+#   docker-compose --file ./.github/docker-compose.yml run 1.14
 #
-# Not recommended but to run all tests at once:
+# NOT recommended to run all tests at once whith "up":
 #   docker-compose --file ./.github/docker-compose.yml up
 version: "3.9"
 services:
