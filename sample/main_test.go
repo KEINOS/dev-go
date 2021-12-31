@@ -3,8 +3,8 @@ package main
 import (
 	"testing"
 
-	"github.com/kami-zh/go-capturer"
 	"github.com/stretchr/testify/assert"
+	"github.com/zenizh/go-capturer"
 )
 
 func Test_main(t *testing.T) {
