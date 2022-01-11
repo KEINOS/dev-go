@@ -18,7 +18,7 @@
 #      - Linux, macOS and Windows.
 #      - AMD (Intel/x86_64) and ARM64 for all OS and ARM32 v5,6,7 for Linux.
 #    2. Archives the built binaries and create checksum.txt file.
-#    3. Create a tap config file for Homebrew. (./dist/<app_name>.rb)
+#    3. Create a tap config file for Homebrew. (./bin/<app_name>.rb)
 #    4. It pushes the archived assets to the release page on GitHub.
 #    5. It pushes the config file for Homebrew tap installation to the repo.
 #           https://github.com/KEINOS/homebrew-apps/
@@ -32,7 +32,7 @@
 #
 #  For local-test run:
 #    $ goreleaser release --snapshot --skip-publish --rm-dist
-#    $ # *Note: Check the ./dist/ dir after ran.
+#    $ # *Note: Check the ./bin/ dir after ran.
 #
 #  Make sure to check the documentation as well at:
 #    https://goreleaser.com/customization/
@@ -44,11 +44,14 @@ before:
 snapshot:
   name_template: '{{ .Version }}'
 
+# Directory name to distribute
+dist: bin
+
 # Settings to build the binaries.
 builds:
   -
-    # Target directory of main.go
-    main: ./cmd
+    # Target directory of main.go (Don't forget to change tha path to main.go)
+    main: ./sample
     # Output binary name
     binary: dev-go-sample
     env:
