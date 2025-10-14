@@ -1,3 +1,6 @@
+> [!warning]
+> This repository is archived. I am not using Docker for consistent development environment any more. I rather use Docker for test and deploy.
+
 <!-- markdownlint-disable MD041 -->
 [![go1.14+](https://img.shields.io/badge/Go-1.14~17-blue?logo=go)](https://github.com/KEINOS/dev-go/actions/workflows/go-versions.yml "Supported versions")
 [![Go Reference](https://pkg.go.dev/badge/github.com/KEINOS/dev-go.svg)](https://pkg.go.dev/github.com/KEINOS/dev-go)
